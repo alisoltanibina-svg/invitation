@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "جشن پیوند اسراء و محمدصادق",
+      "hasCanvas": false,
+      "bodyTextLen": 74,
+      "bodyTextHash": "f3cd2579d5f1ff0abf2ec394006e0cccee78b6aedb157953955c03eaa8b7b79a",
+      "bodyTextPrefix": "ا‌م جشن پیوند به ضیافت ما دعوتید اسراءومحمدصادق ۲۳ شهریورماه ۱۴۰",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "جشن پیوند اسراء و محمدصادق",
+      "hasCanvas": false,
+      "bodyTextLen": 74,
+      "bodyTextHash": "f3cd2579d5f1ff0abf2ec394006e0cccee78b6aedb157953955c03eaa8b7b79a",
+      "bodyTextPrefix": "ا‌م جشن پیوند به ضیافت ما دعوتید اسراءومحمدصادق ۲۳ شهریورماه ۱۴۰",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

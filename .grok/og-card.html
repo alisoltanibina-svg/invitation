@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family: "Amiri";
+        font-weight: 400;
+        src: url("./fonts/amiri-400.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Amiri";
+        font-weight: 700;
+        src: url("./fonts/amiri-700.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Aref Ruqaa";
+        font-weight: 400;
+        src: url("./fonts/aref-400.woff2") format("woff2");
+      }
+      @font-face {
+        font-family: "Aref Ruqaa";
+        font-weight: 700;
+        src: url("./fonts/aref-700.woff2") format("woff2");
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body {
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+        background: #1A0C10;
+      }
+      .card {
+        position: relative;
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+      }
+      .card img.bg {
+        position: absolute;
+        inset: 0;
+        width: 1200px;
+        height: 630px;
+        object-fit: cover;
+        display: block;
+      }
+      .veil {
+        position: absolute;
+        inset: 0;
+        background:
+          linear-gradient(
+            180deg,
+            rgb(18 8 11 / 0.18) 0%,
+            rgb(18 8 11 / 0.00) 28%,
+            rgb(18 8 11 / 0.08) 48%,
+            rgb(18 8 11 / 0.72) 78%,
+            rgb(18 8 11 / 0.92) 100%
+          );
+      }
+      .frame {
+        position: absolute;
+        inset: 22px;
+        border: 1.5px solid rgb(196 165 116 / 0.55);
+        border-radius: 4px;
+        pointer-events: none;
+      }
+      .frame::after {
+        content: "";
+        position: absolute;
+        inset: 6px;
+        border: 0.6px solid rgb(244 235 224 / 0.18);
+        border-radius: 2px;
+      }
+      .lockup {
+        position: absolute;
+        left: 50%;
+        bottom: 52px;
+        transform: translateX(-50%);
+        width: 720px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .kicker {
+        font-family: "Aref Ruqaa", "Amiri", serif;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 1;
+        color: #E4D0A8;
+        text-shadow: 0 2px 14px rgb(18 8 11 / 0.7);
+        letter-spacing: 0;
+      }
+      .names {
+        margin-top: 6px;
+        font-family: "Amiri", serif;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 1.15;
+        color: #F4EBE0;
+        text-shadow: 0 3px 18px rgb(18 8 11 / 0.85);
+        white-space: nowrap;
+      }
+      .divider {
+        width: 280px;
+        height: 28px;
+        margin: 10px 0 4px;
+        color: #C4A574;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img class="bg" src="./og-bg.jpg" alt="" />
+      <div class="veil"></div>
+      <div class="frame"></div>
+      <div class="lockup">
+        <p class="kicker">جشن پیوند</p>
+        <svg class="divider" viewBox="0 0 280 36" fill="none" aria-hidden="true">
+          <path d="M10 18 H112" stroke="currentColor" stroke-width="0.7" opacity="0.7" />
+          <path d="M168 18 H270" stroke="currentColor" stroke-width="0.7" opacity="0.7" />
+          <path d="M140 6 C146 12 146 24 140 30 C134 24 134 12 140 6 Z" stroke="currentColor" stroke-width="0.9" fill="currentColor" fill-opacity="0.15" />
+          <circle cx="140" cy="18" r="2.2" fill="currentColor" />
+          <path d="M118 18 C124 10 132 10 140 18 C148 10 156 10 162 18" stroke="currentColor" stroke-width="0.8" />
+          <path d="M118 18 C124 26 132 26 140 18 C148 26 156 26 162 18" stroke="currentColor" stroke-width="0.8" />
+        </svg>
+        <p class="names">اسراء و محمدصادق</p>
+      </div>
+    </div>
+  </body>
+</html>

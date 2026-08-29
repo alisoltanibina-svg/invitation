@@ -5,7 +5,7 @@ import { a as MapPin, c as ChevronLeft, d as CalendarPlus, i as Music2, l as Che
 import { n as clsx, t as cva } from "../_libs/class-variance-authority+clsx.mjs";
 import { t as twMerge } from "../_libs/tailwind-merge.mjs";
 import { t as Slot } from "../_libs/radix-ui__react-slot.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-BxBE9D15.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-Bf1M4vRl.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var MELODY = [
@@ -426,28 +426,28 @@ function Cover({ opening, onOpen }) {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "cover-veil absolute inset-0" }),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FallingPetals, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "relative z-10 flex w-full max-w-md flex-col items-center px-8 pb-[max(2.5rem,env(safe-area-inset-bottom))] pt-16 text-center",
+				className: "relative z-10 flex w-full max-w-md flex-col items-center px-8 pb-[max(2.5rem,env(safe-area-inset-bottom))] pt-16 text-center font-display",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Monogram, { className: "mb-6 size-14 border-gold/40 font-ceremony text-gold-bright" }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Monogram, { className: "mb-6 size-14 border-gold/40 text-gold-bright" }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "font-ceremony text-3xl font-bold leading-none text-gold-bright",
+						className: "text-3xl font-bold leading-none text-gold-bright",
 						children: invitation.coverKicker
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
-						className: "mt-4 font-display text-4xl leading-tight text-ivory",
+						className: "mt-4 text-4xl leading-tight text-ivory",
 						children: invitation.coverTitle
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(FloralDivider, { className: "my-5 text-gold-bright" }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "font-display text-[2.75rem] font-bold leading-none text-ivory drop-shadow-[0_3px_14px_rgba(0,0,0,0.65)]",
+						className: "text-[2.75rem] font-bold leading-none text-ivory drop-shadow-[0_3px_14px_rgba(0,0,0,0.65)]",
 						children: invitation.bride
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "my-1.5 font-display text-2xl font-bold text-gold-bright",
+						className: "my-1.5 text-2xl font-bold text-gold-bright",
 						children: "و"
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-						className: "font-display text-[2.35rem] font-bold leading-none text-ivory drop-shadow-[0_3px_14px_rgba(0,0,0,0.65)]",
+						className: "text-[2.35rem] font-bold leading-none text-ivory drop-shadow-[0_3px_14px_rgba(0,0,0,0.65)]",
 						children: invitation.groom
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ShamsiDate, { className: "mt-3 text-lg text-ivory/80" }),
@@ -465,7 +465,7 @@ function Cover({ opening, onOpen }) {
 								className: "size-24 rounded-full object-cover ring-2 ring-gold/70 shadow-[0_12px_40px_rgba(0,0,0,0.45)] transition-transform duration-[var(--motion-fast)] group-active:scale-[0.96]"
 							})
 						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-							className: "font-display text-xl tracking-wide text-gold-bright",
+							className: "text-xl tracking-wide text-gold-bright",
 							children: invitation.openLabel
 						})]
 					})

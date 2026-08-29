@@ -27,20 +27,20 @@ export function Cover({
       <div className="cover-veil absolute inset-0" />
       <FallingPetals />
 
-      <div className="relative z-10 flex w-full max-w-md flex-col items-center px-8 pb-[max(2.5rem,env(safe-area-inset-bottom))] pt-16 text-center">
-        <Monogram className="mb-6 size-14 border-gold/40 font-ceremony text-gold-bright" />
-        <p className="font-ceremony text-3xl font-bold leading-none text-gold-bright">
+      <div className="relative z-10 flex w-full max-w-md flex-col items-center px-8 pb-[max(2.5rem,env(safe-area-inset-bottom))] pt-16 text-center font-display">
+        <Monogram className="mb-6 size-14 border-gold/40 text-gold-bright" />
+        <p className="text-3xl font-bold leading-none text-gold-bright">
           {invitation.coverKicker}
         </p>
-        <h1 className="mt-4 font-display text-4xl leading-tight text-ivory">
+        <h1 className="mt-4 text-4xl leading-tight text-ivory">
           {invitation.coverTitle}
         </h1>
         <FloralDivider className="my-5 text-gold-bright" />
-        <p className="font-display text-[2.75rem] font-bold leading-none text-ivory drop-shadow-[0_3px_14px_rgba(0,0,0,0.65)]">
+        <p className="text-[2.75rem] font-bold leading-none text-ivory drop-shadow-[0_3px_14px_rgba(0,0,0,0.65)]">
           {invitation.bride}
         </p>
-        <p className="my-1.5 font-display text-2xl font-bold text-gold-bright">و</p>
-        <p className="font-display text-[2.35rem] font-bold leading-none text-ivory drop-shadow-[0_3px_14px_rgba(0,0,0,0.65)]">
+        <p className="my-1.5 text-2xl font-bold text-gold-bright">و</p>
+        <p className="text-[2.35rem] font-bold leading-none text-ivory drop-shadow-[0_3px_14px_rgba(0,0,0,0.65)]">
           {invitation.groom}
         </p>
         <ShamsiDate className="mt-3 text-lg text-ivory/80" />
@@ -59,7 +59,7 @@ export function Cover({
               className="size-24 rounded-full object-cover ring-2 ring-gold/70 shadow-[0_12px_40px_rgba(0,0,0,0.45)] transition-transform duration-[var(--motion-fast)] group-active:scale-[0.96]"
             />
           </span>
-          <span className="font-display text-xl tracking-wide text-gold-bright">
+          <span className="text-xl tracking-wide text-gold-bright">
             {invitation.openLabel}
           </span>
         </button>
